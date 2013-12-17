@@ -1,0 +1,238 @@
+h4#wk_dis{
+    height: 10px;
+    width: 300px;
+}
+
+ul#ul_wkn_mbr{
+    
+    height: 10px;
+    width: auto;
+    display: block;
+    padding-left: 5px;
+}
+
+div#mbr_div{
+    
+    padding:5px;
+    
+}
+
+li#each_mbr{
+    
+    background-color:#08569e;
+    border: solid 1px #444;
+    /*width:100px;*/
+    display: inline-block;
+    outline: none;
+    float:left; 
+    /*clear: left;*/
+    color: #232424;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+div#about_wknd{
+    
+    display: inline-block;
+    clear: left;
+    /*background-color: red;*/
+    width: 380px;
+}
+
+        div#desc{
+            font-size:16px;
+            color:#444;
+            background-image:url("../img/Paper.jpg");
+            display:block;
+            width: 260px;
+            padding:12px;
+            border-radius: 5px;
+            height: auto;
+            border: 0px;
+            float: left;
+            line-height: 20px;
+            margin:0 0 10px 0;
+            text-align: justify;
+             -webkit-box-shadow: 4px 5px 2px 1px rgba(46,40,40,1.5);
+        }
+
+        div#wk_crt{   
+            padding:10px;
+            float:left;
+            display:block;
+            font-size: 15px;
+            color:#0a3682;
+            font-weight: bold;
+            /*border: 1px solid #444;*/
+            width: 250px;
+            height: 10px;
+        }
+        
+        div#wk_info{
+            display: block;
+            clear: left;
+            width: 260px;
+            
+        }
+        
+        div#wk_date{
+            
+            padding:10px;
+            padding-bottom: 5px;
+            display:block;
+            font-size: 15px;
+            color:#b52400;
+        }
+        
+    div#wk_gap_1{
+     
+     height: 2px;
+     padding-top: 0px;
+     padding:10px;
+    }
+    
+    div#wk_gap_2{
+     
+     height: 60px;
+     padding: 10px;
+    }
+    
+    div.wk_loc{
+        width:250px;
+        display: block;
+        color: #232424;
+        padding: 10px;
+        padding-top: 15px;
+        font-size: 22px;
+        height: 20px;
+        clear: left;
+    }
+    
+     div.show_loc_map{
+        /*background-color:#436b3e;*/
+        border: solid 2px #444;
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+        height: 240px;
+         -webkit-box-shadow: 10px 9px 8px 1px rgba(46,40,40,1.5);
+    }
+    
+div#wk_table{
+    
+    display:inline-block;
+    /*background-color: #7d7c7c;*/
+    border-radius: 10px;
+    float: right;
+    width: 300px;
+    
+}
+
+
+table.wk_exp{
+      
+    background:url("../img/ledger_paper.jpg");
+       -webkit-box-shadow: 4px 5px 2px 1px rgba(46,40,40,1.5);
+       
+}
+
+td#exp_td_head{
+    
+    font-size: 15px;
+    font-weight: bold;
+    color:#060701;
+    /*background-color: #3b470b;*/
+    width: 100px;
+    padding:10px;
+     border: 1px inset #1f1c1c;
+     -webkit-box-shadow: 1px 1px 1px 1px rgba(46,40,40,1.5);
+}
+
+td#exp_td_data{
+    
+    font-size: 16px;
+    color:#000;
+    padding:5px;
+     border: 1px ridge #2e2828;
+   -webkit-box-shadow: 1px 1px 1px 1px rgba(46,40,40,1.5);
+   height: 30px;
+
+}
+
+tr#exp_tr_head{
+    
+    
+    
+}
+
+tr#exp_tr_data{
+    
+    
+    
+}
+
+tr#tr_total_odd{
+    
+    font-size: 16px;
+    color:#000;
+    padding:5px;
+      border: 1px inset #1f1c1c;.
+}
+
+tr#tr_total_even{
+    
+    
+}
+
+td#td_total_name{
+    font-size: 16px;
+    color:#000;
+    padding:5px;
+     border: 1px inset #1f1c1c;
+     -webkit-box-shadow: 1px 1px 1px 1px rgba(46,33,112,1.5);
+}
+
+td#td_total_val{
+    font-size: 16px;
+    color:#000;
+    padding:5px;
+    border:1px inset #1f1c1c;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(46,33,112,1.5);
+    
+}
+
+td#td_your_credit{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color:#203308;
+    padding:5px;
+    border: 1px inset #1f1c1c;
+    height: 100px;
+    border-bottom: 1px dashed;
+    border-bottom-color:#555555;
+     margin:0 0 10px 0;
+    text-align: justify;
+    line-height: 20px;
+    padding-left: 20px;
+     padding-right:10px;
+}
+
+td#td_your_debit{
+    font-size: 20px;
+    font-weight: bold;
+    color:#850202;
+    padding:5px;
+    border: 1px inset #1f1c1c;
+    height: 100px;
+    border-bottom: 1px dashed;
+    border-bottom-color:#555555;
+      margin:0 0 10px 0;
+    text-align: justify;
+    line-height: 20px;
+    
+}

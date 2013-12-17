@@ -1,0 +1,205 @@
+
+#album_div_wrapper{
+    
+    width: 80%;
+    height:10%;
+    background-color: #c29f2b;
+    display: block;
+    -webkit-box-shadow: 20px 15px 10px 1px rgba(108,106,95,0.5);
+    font-size: 20px;
+    border-bottom:1px #444 inset;
+    /*padding: 20px;*/
+    padding-left: 22px;
+    padding-right: 3px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.webkit_wrap{
+    
+    width: 97%;
+    height:25%;
+  /*  background-color: #53535c;*/
+    background-color: #060a01;
+    display: block;
+    -webkit-box-shadow: 5px 1px 3px 0 rgba(98,86,95,1.5);
+    /*border-bottom: 1px #444 ridge ;*/
+    padding-left:3px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+}
+.webkit_wrap:hover{
+/*    background-color: #ccc0c0;*/
+      cursor: pointer;
+}
+
+.slidingDiv{
+    
+    width: 80%;
+    height:275px;
+    background-color: #797272;
+    display: block;
+     -webkit-box-shadow: 20px 15px 10px 1px rgba(108,106,95,0.5);
+    font-size: 20px;
+    border-bottom: 1px #444 ridge ;
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.slidingEditDiv{
+    
+    width: 80%;
+    height:375px;
+    background-color: #797272;
+    display: block;
+     -webkit-box-shadow: 20px 15px 10px 1px rgba(108,106,95,0.5);
+    font-size: 20px;
+    border-bottom: 1px #444 ridge ;
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.create_click{
+    
+    width: 20%;
+    height:20%;
+    background-color: #ba4a09;
+    display: block;
+    float: right;
+    clear:left;
+    font-size: 20px;
+    /*padding: 5px;*/
+    padding-left: 20px;
+}
+
+.create_click:hover{
+    
+    color:#ccc;
+    cursor: pointer;
+}
+
+
+.album_form{
+    
+    width:89%;
+    padding:1%;
+    padding-left:5%;
+    
+}
+
+.show_hide_edit{
+    
+    width: 5%;
+    height:10%;
+    background-color: #060a01;
+    display: inline-block;
+    position: relative;
+    clear: left;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+    color:#999999;
+}
+
+.show_hide_edit:hover{
+  color:#cf430c;
+}
+
+.show_hide_upload{
+    
+    width: 5%;
+    height:20%;
+    background-color: #060a01;
+    position: relative;
+    display: inline-block;
+    clear: left;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+    color:#999999;
+    
+}
+.show_hide_upload:hover{
+    
+    color:#cf430c;
+}
+
+.show_hide_exp{
+    
+    width: 5%;
+    height:20%;
+    background-color: #060a01;
+    position: relative;
+    display: inline-block;
+    clear: left;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+    color:#999999;
+    
+}
+.show_hide_exp:hover{
+    
+    color:#cf430c;
+}
+
+
+#slide_del{
+    
+    width: 5%;
+    height:20%;
+    background-color: #060a01;
+    display: inline-block;
+    clear: left;
+    float: right;
+    position: relative;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+}
+#slide_del a:hover{
+    color:#cf430c;
+}
+
+
+
+#slide_gap{
+    
+    width: 5%;
+    height:20%;
+    background-color: #060a01;
+    display: inline-block;
+    clear: left;
+    float: right;
+    position: relative;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.show_hide_edit{
+    
+    width: 5%;
+    height:10%;
+    background-color: #060a01;
+    display: inline-block;
+    position: relative;
+    clear: left;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+    color:#999999;
+}
+.show_hide_edit a:hover{
+  color:#cf430c;
+}
+

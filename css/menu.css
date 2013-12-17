@@ -1,0 +1,61 @@
+/*ul Styling*/
+
+.menu_ul{
+    
+    display: inline;
+}
+
+.profile_menu_ul{
+    
+    display: inline;
+}
+
+/*li Styling*/
+
+.menu_li{
+    
+    display: inline-block;
+}
+
+.profile_menu_li{
+    
+    /*display: inline;*/
+    /*float: right;*/
+}
+
+.menu_a{
+    
+    text-decoration: none;
+    color:#bdb9b9;
+    text-shadow: 1px 2px 0 #111;
+}
+
+.profile_a{
+    
+    text-decoration: none;
+    color:#444;
+}
+
+.menu_ul_sub{
+     list-style: none;
+    display:inline-block;
+     position: relative;
+      float: none;
+      padding-left: 0px;
+}
+
+.menu_ul_sub:hover > li{
+    display: block;
+    list-style:none;
+    position: absolute;
+     float: none;
+     background-color:#4d3c3c;
+}
+
+.menu_li_sub{
+   display: none;
+   background-color:#4d3c3c;
+}
+
+
+

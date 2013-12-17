@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Weekend Expenses Calculation</title>
+<link rel="stylesheet" media="all" href="css/calc.css" />
+</head>
+<body>
+    
+    <header>
+            <h1>Calculate Weekend expenses</h1>
+            <p>Using XMLHttpRequest for Ajax Calls (returns JSON)</p>
+    </header>
+    
+    <article>
+        
+        <form id="calc" action="./api/calc.php" method="get" >
+            
+            <fieldset>
+                <legend>Weekend Calculator</legend>
+                    <label for="Place">Place</label>
+                    <input id="place" name="place" type="text" placeholder="where were you?" />
+                     <label for="Food">Food</label>
+                    <input id="food" name="food" type="text" placeholder="what did you eat?" />
+                     <label for="Cost">Cost</label>
+                    <input id="cost" name="cost" type="text" placeholder="Total Cost?" />
+                     <label for="People">People</label>
+                    <input id="people" name="people" type="text" placeholder="how many mates?" />
+                     <label for="Date">Date</label>
+                    <input id="date" name="date" type="date" placeholder="when was the party" />
+                    
+                    <input type="hidden" name="format" value="json"/>
+                    
+                    <button id="submit" type="submit">Submit</button>
+            </fieldset>
+            
+        </form>
+        
+        <div id="output">
+            <tr><th>place</th><td>Blank</td></tr>
+            <tr><th>Food</th><td>Blank</td></tr>
+            <tr><th>Cost</th><td>Blank</td></tr>
+            <tr><th>People</th><td>Blank</td></tr>
+            <tr><th>Date</th><td>Blank</td></tr>
+        </div>
+    </article>
+    
+    
+
+
+</body>
+</html>

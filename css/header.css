@@ -1,0 +1,341 @@
+.header_mainDiv{
+    
+    width: 100%;
+    height: 48px;
+    background-color:#fff;
+    float:left;
+    position: relative;
+    margin:-1px;
+    padding: 0px;
+}
+
+.header_menuDiv{
+    
+    width: 100%;
+    height: 50px;
+    background-color:#1f0a0a;
+    float:left;
+    clear:both;
+    position: relative;
+    margin:-1px;
+    padding-bottom:10px;
+    color:#fff;
+    -webkit-box-shadow: 1px 3px 3px 0 rgba(108,106,95,0.5);
+}
+
+
+.header_loginDiv{
+    
+    width: 35.0%;
+    height:50px;
+     background-color:#1f0a0a;
+    /*border-bottom:5px solid #75503e;*/
+    clear: right;
+    float:right;
+    position: relative;
+    margin:-1px;
+    padding-left:15px;
+    padding-bottom:10px;
+    color: #fff;
+     -webkit-box-shadow: 1px 3px 3px 0 rgba(108,106,95,0.5);
+
+}
+
+.header_profileDiv{
+    
+    width: 10%;
+    height:50px;
+     background-color:#1f0a0a;
+    /*border-bottom:5px solid #75503e;*/
+    clear: right;
+    float:right;
+    position: relative;
+    margin:-1px;
+    padding-left:15px;
+    padding-bottom:10px;
+    color: #fff;
+     -webkit-box-shadow: 1px 3px 3px 0 rgba(108,106,95,0.5);
+
+}
+
+
+
+
+
+#top.gap{
+    
+    width:100%;
+    height:150px;
+}
+
+
+
+#home.menuDiv{
+    
+    width:55%;
+    height: 32px;
+    /*background-color:#ccc8c6;*/
+    /*border-bottom:5px solid #75503e;*/
+    padding-top:16px;
+    padding-bottom: 5px;
+    padding-left:50px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+    color:#fff;
+    
+}
+
+#div1.menuDiv{
+    
+    width:110px;
+    height: 38px;
+    /*background-color:#ccc8c6;*/
+    border-right: 1px solid #444;
+    border-left: 1px solid #111;
+    padding-top:16px;
+    padding-bottom: 5px;
+     padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+ 
+}
+
+#div1.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+#div2.menuDiv{
+    
+    width:80px;
+     height: 38px;
+    border-right: 1px solid #444;
+    border-left: 1px solid #111;
+    /*background-color:#ccc8c6;*/
+    /*border-bottom:5px solid #75503e;*/
+    padding-top:16px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+    margin-left: -4px;
+}
+
+#div2.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+
+#login_click.menuDiv{
+    
+    width:80px;
+     height: 38px;
+    border-right: 1px solid #444;
+    border-left: 1px solid #111;
+    /*background-color:#ccc8c6;*/
+    /*border-bottom:5px solid #75503e;*/
+    padding-top:16px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+    margin-left: -4px;
+}
+
+#login_click.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+#div3.menuDiv{
+    
+    width:180px;
+    height: 38px;
+    /*background-color:#ccc8c6;*/
+  /*border-right: 1px solid #444;*/
+border-left: 1px solid #111;
+    padding-top:16px;
+    padding-bottom: 5px;
+   padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+      margin-left: -4px;
+}
+
+#div3.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+
+#div3_sub.menuDiv{
+    
+    width:180px;
+    height: 38px;
+    border-left: 1px solid #111;
+    padding-top:16px;
+    padding-bottom: 5px;
+   padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+   background-color:#1f0a0a;
+    position: absolute;
+    display:block;
+      margin-left: -4px;
+}
+
+#div3_sub.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+#logged_in.profile_menuDiv{
+    
+    width:95px;
+    height: 38px;
+    padding-top:16px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+    position: relative;
+    display:inline-block;
+    margin-left: -4px;
+       
+}
+
+#logged_in.profile_menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+#not_logged_in.profile_menuDiv{
+    
+    width:85px;
+    height: 38px;
+    /*background-color:#ccc8c6;*/
+    border-right: 1px solid #444;
+    border-left: 1px solid #111;
+    padding-top:16px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+    margin-left: -4px;
+       
+}
+
+#not_logged_in.profile_menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+#blank.menuDiv{
+    
+    width:150px;
+    height: 38px;
+    /*background-color:#ccc8c6;*/
+    border-right: 1px solid #444;
+    border-left: 1px solid #111;
+    padding-top:16px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    clear:left;
+    /*float:left;*/
+    position: relative;
+    display:inline-block;
+      margin-left: -4px;
+   
+}
+
+#blank.menuDiv:hover{
+    color:#fff;
+    background-color:#4d3c3c;
+    
+}
+
+.profile_submenu{
+    width:180px;
+    height: 38px;
+    /*border-bottom: 1px solid #444;*/
+    background-color: #e8e3d8;
+    padding:8px;
+    padding-left:20px;
+    clear:right;
+     float:right;
+      -webkit-box-shadow: 2px -1 3px 0 rgba(108,106,95,0.5);
+}
+
+#submenu_wrapper{
+    
+    width:auto;
+    height: auto;
+      border-radius: 5px;
+}
+
+
+#div3.profile_submenu{
+    width:180px;
+    height: 38px;
+    /*border-bottom: 1px solid #444;*/
+    background-color: #e8e3d8;
+    padding:8px;
+    padding-left:20px;
+    clear:right;
+     float:right;
+      -webkit-box-shadow: 0px 3px 0px 0 rgba(108,106,95,0.5);
+}
+
+.profile_submenu:hover{
+    background-color: #d6cbb4;
+    color:#555;
+}
+
+#div3.profile_submenu:hover{
+    background-color: #d6cbb4;
+    color:#555;
+}
+
+#with_border.sub_profile_p{
+     border-bottom: 1px solid #999999;
+     padding-left:15px;
+     padding-right:15px;
+     padding-bottom:8px;
+     width:75%;
+}
+
+#last_section.sub_profile_p{
+     padding-left:15px;
+     padding-right:15px;
+     padding-bottom:8px;
+     width:75%;
+     
+}
+ 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<script>
+    //var txt=document.getElementById("txt");
+    //var list=['bob','robert','simon','rumman','lia'];
+    //function get_data(list,index) {
+    //    document.write(list);
+    //    if (index<list.length) {
+    //        return;
+    //    }else{
+    //        //for (var i=0;i<list.length;i++) {
+    //            document.write(',') 
+    //            get_data(list[index],index+1);
+    //        //}
+    //
+    //    }
+    //    
+    //}
+    //
+    //get_data(list,0);
+    
+    function home_loan(amount,interest,year) {
+        document.write('Loan starts as ' + amount + ' on year ' + year + '<br />');
+        if (year>=30 || amount<=0) {
+            return;
+        }else{
+            var lnp=amount+((amount*interest)/100)*year;
+            document.write('Total loan and principle on year ' + year + ' is '+ lnp + '<br />');
+            var payment=36000;
+            amount=lnp-payment;
+            //amount-=payment;
+            document.write('After year ' + year + ' loan and principle is ' + amount + '<br />');
+            //document.write(remain + '<br />');
+            home_loan(amount,interest,year+1);
+        }
+    }
+    
+    home_loan(535000,5.05,1);
+    
+</script>
+
+<body>
+<p id="txt">
+    
+</p>
+
+
+</body>
+</html>

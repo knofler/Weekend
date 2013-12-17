@@ -1,0 +1,22 @@
+.camera4{
+  display:block;
+  width:70%;
+  height:50%;
+  position:absolute;
+  top:30%;
+  left:15%;
+  background-color:#000;
+  border-radius:5px;
+}
+.camera4:after{
+  content:"";
+  display:block;
+  width:15px;
+  height:15px;
+  border:7px solid #fff;
+  position:absolute;
+  top:15%;
+  left:25%;
+  background-color:#000;
+  border-radius:15px;
+}
